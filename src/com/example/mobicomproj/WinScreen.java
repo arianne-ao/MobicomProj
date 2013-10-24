@@ -1,19 +1,38 @@
 package com.example.mobicomproj;
 
+import org.w3c.dom.Text;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.view.Menu;
 import android.view.View;
 import android.view.Window;
+import android.widget.TextView;
 
 public class WinScreen extends Activity {
 
+	TextView win_message;
+	TextView score_textview;
+	TextView user_score;
+		
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_win_screen);
+		
+		Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/HoboStd.otf");
+		win_message = (TextView) findViewById(R.id.WinMessageTextView);
+		win_message.setTypeface(tf);
+		
+		score_textview = (TextView) findViewById(R.id.scoreTextView);
+		score_textview.setTypeface(tf);
+
+		user_score = (TextView) findViewById(R.id.winScoreTextView);
+		user_score.setTypeface(tf);
+		
 	}
 	
 	public void gotoHome(View view){

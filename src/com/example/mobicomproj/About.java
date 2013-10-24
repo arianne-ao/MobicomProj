@@ -19,10 +19,6 @@ public class About extends Activity {
 		setContentView(R.layout.activity_about);
 	}
 	
-	public void backToSettingsButton(View view){
-		finish();
-	}
-
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.

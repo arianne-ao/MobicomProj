@@ -19,6 +19,8 @@ public final class R {
          */
         public static final int activity_horizontal_margin=0x7f050000;
         public static final int activity_vertical_margin=0x7f050001;
+        public static final int messageSize=0x7f050003;
+        public static final int textSize=0x7f050002;
     }
     public static final class drawable {
         public static final int about=0x7f020000;
@@ -30,16 +32,18 @@ public final class R {
         public static final int win=0x7f020006;
     }
     public static final class id {
-        public static final int BacktoMainButton=0x7f090008;
         public static final int HomeButton=0x7f090001;
-        public static final int aboutButton=0x7f090007;
-        public static final int action_settings=0x7f090009;
-        public static final int backToSettingsButton=0x7f090000;
-        public static final int failScoreTextView=0x7f090002;
-        public static final int musicSeekBar=0x7f090005;
-        public static final int playButton=0x7f090003;
-        public static final int settingsButton=0x7f090004;
-        public static final int soundsSeekBar=0x7f090006;
+        public static final int LoseMessageTextView=0x7f090000;
+        public static final int WinMessageTextView=0x7f090009;
+        public static final int aboutButton=0x7f090008;
+        public static final int action_settings=0x7f09000b;
+        public static final int loseScoreTextView=0x7f090003;
+        public static final int musicSeekBar=0x7f090006;
+        public static final int playButton=0x7f090004;
+        public static final int scoreTextView=0x7f090002;
+        public static final int settingsButton=0x7f090005;
+        public static final int soundsSeekBar=0x7f090007;
+        public static final int winScoreTextView=0x7f09000a;
     }
     public static final class layout {
         public static final int activity_about=0x7f030000;
@@ -58,18 +62,23 @@ public final class R {
         public static final int win_screen=0x7f080005;
     }
     public static final class raw {
-        public static final int bubbleclick=0x7f040000;
-        public static final int bubbleclick2=0x7f040001;
+        public static final int bgmusic=0x7f040000;
+        public static final int bubbleclick=0x7f040001;
+        public static final int bubbleclick2=0x7f040002;
     }
     public static final class string {
         public static final int action_settings=0x7f060001;
         public static final int app_name=0x7f060000;
         public static final int hello_world=0x7f060002;
+        public static final int lose_message=0x7f060008;
+        public static final int score_textview=0x7f06000a;
         public static final int title_activity_about=0x7f060005;
         public static final int title_activity_level_select=0x7f060004;
         public static final int title_activity_lose_screen=0x7f060007;
         public static final int title_activity_settings=0x7f060003;
         public static final int title_activity_win_screen=0x7f060006;
+        public static final int userScore=0x7f06000b;
+        public static final int win_message=0x7f060009;
     }
     public static final class style {
         /** 

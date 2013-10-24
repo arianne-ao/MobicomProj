@@ -26,11 +26,6 @@ public class Settings extends Activity {
 
 	}
 	
-	public void backToMainButton(View view){
-		System.out.println("clicked back button");
-		finish();
-	}
-
 	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
